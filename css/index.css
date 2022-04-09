@@ -31,14 +31,15 @@ body header div {
 body header a {
     margin: 1rem;
     color: #909090;
-    font-size: 1.4rem;
+    font-size: 1.5em;
     font-weight: bold;
     transition: 0.4s ease;
 }
 
 body header div a:hover {
     color: whitesmoke;
-    box-shadow: 0 0.2em 0 #fff inset;
+    box-shadow: 0 0.2em 0 rgb(240, 236, 236) inset;
+
 
 }
 
@@ -48,14 +49,14 @@ main article {
     justify-content: space-between;
     margin-top: 0.8em;
     background-color: black;
-    padding: 2rem;
+    padding: 2em;
 
 }
 
 main article div {
     margin-right: 10%;
     margin-left: 10%;
-    font-size: 2rem;
+    font-size: 2em;
 
 }
 
@@ -91,7 +92,7 @@ body main section div a {
     color: #fff;
     padding: 1em 2em;
     background: #909090;
-    box-shadow: 0 0 0.5rem #fff;
+    box-shadow: 0 0 0.6em #fff;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
@@ -118,7 +119,7 @@ body main section div a:hover {
 
     body main article div {
         font-size: medium;
-        margin: auto 2rem;
+        margin: auto 2em;
 
     }
 
