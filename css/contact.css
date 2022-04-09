@@ -34,12 +34,12 @@ body header a {
     color: #909090;
     font-size: 1.4rem;
     font-weight: bold;
-    transition: 0.4s ease;
+    transition: 0.5s ease;
 }
 
 body header div a:hover {
     color: whitesmoke;
-    box-shadow: 0 0.2em 0 #fff inset;
+    box-shadow: 0 0.2em 0 rgb(250, 242, 242) inset;
 
 }
 
@@ -57,7 +57,7 @@ body main div {
 body main div {
     margin-top: 0.3rem;
     background: #000;
-    padding: 1rem 0;
+    padding: 1em 0;
 }
 
 #quesmark {
