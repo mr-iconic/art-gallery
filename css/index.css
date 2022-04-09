@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(59, 56, 56);
+    color: azure;
+
+
+}
+
+body header {
+    background-color: black;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+body header a {
+    margin: 1rem;
+    color: #909090;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+body header div a:hover {
+    color: whitesmoke;
+    box-shadow: 0 0.2em 0 #fff inset;
+
+}
+
+main article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: black;
+    padding: 2rem;
+
+}
+
+main article div {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2rem;
+
+}
+
+main article img:hover {
+    box-shadow: 0 0 2em rgb(245, 247, 248);
+    transition: 0.6 ease-in;
+}
+
+body main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 1em;
+}
+
+body main section img {
+    margin: 1em;
+    padding-top: 7em;
+    padding-bottom: 6em;
+
+}
+
+body main section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body main section div a {
+    margin: auto;
+    color: #fff;
+    padding: 1em 2em;
+    background: #909090;
+    box-shadow: 0 0 0.5rem #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.8s ease;
+}
+
+body main section div a:hover {
+    box-shadow: 0 0 1em rgb(215, 117, 117) inset;
+    font-size: larger;
+}
+
+@media(max-width:1055px) {
+    body header h1 {
+        margin-top: 0;
+        padding: 0.5em;
+    }
+
+    body header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    body main article div {
+        font-size: medium;
+        margin: auto 2rem;
+
+    }
+
+    body main article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body main article img {
+        width: 80%;
+
+    }
+
+    body main section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body main section img {
+        width: 80%;
+    }
+
+    body main section div {
+        margin: 0;
+        max-width: 100%;
+        font-size: 1em;
+    }
+}

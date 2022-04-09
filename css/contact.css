@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(59, 56, 56);
+    color: azure;
+    height: 100vh;
+}
+
+body header {
+    background-color: black;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+}
+
+body header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+body header a {
+    margin: 1rem;
+    color: #909090;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+body header div a:hover {
+    color: whitesmoke;
+    box-shadow: 0 0.2em 0 #fff inset;
+
+}
+
+body main {
+    display: flex;
+    flex-direction: column;
+}
+
+body main div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body main div {
+    margin-top: 0.3rem;
+    background: #000;
+    padding: 1rem 0;
+}
+
+#quesmark {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#quesmark img {
+    margin-top: 2em;
+    width: 100%;
+    margin-bottom: 2em;
+    border: 2px solid white;
+    box-shadow: 0 0 0.7em white;
+    border-radius: 50%;
+}
+
+#quesmark p {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#contact img {
+    width: 4rem;
+    padding: 1em;
+}
+
+#contact img:hover {
+    box-shadow: 0 0 0.5em white;
+    transition: 0.5 ease;
+}
+
+@media(max-width:850px) {
+    body header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    main #quesmark {
+        flex-direction: column;
+    }
+
+    #quesmark img {
+        width: 80%;
+
+    }
+
+    #contact a {
+        max-width: 10%;
+    }
+}
